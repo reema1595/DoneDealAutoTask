@@ -70,7 +70,6 @@ namespace AutomationTask.StepDefinitions
         {
             Thread.Sleep(2000);
             var text = await _page.GetByText("DescriptionSale Type:").TextContentAsync();
-            // System.Console.Write(text);
             (text.ToLower().Contains("garage")).Should().BeTrue();
         }
 
