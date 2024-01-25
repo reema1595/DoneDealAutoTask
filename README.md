@@ -2,7 +2,7 @@ The code has been written in c# using BDD framework and Playwright
 
 A Visual Studio / Visual Studio/ Rider Code IDE is recommended 
 
-The following packages need to be installed for successful execution
+To install browsers, Run pwsh bin/Debug/net6.0/playwright.ps1 install --with-deps  
 
 To Generate a Report, install living doc using following command in powershell:    dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
 
