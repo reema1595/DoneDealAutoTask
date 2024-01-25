@@ -17,8 +17,8 @@ jobs:
     - run: dotnet build
     - name: Ensure browsers are installed
       run: pwsh bin/Debug/net6.0/playwright.ps1 install --with-deps
-    - name: Run Cucumber tests
-      run: npm test
+    - name: Run your tests
+      run: dotnet test
     - name: Ensure Living Doc is installed
       run:  dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
     - name: Generate Living Doc
