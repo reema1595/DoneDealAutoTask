@@ -1,4 +1,4 @@
-The code has been written in c# using BDD framework and Playwright
+The code has been written in c# using SpecFlow BDD framework and Playwright
 
 A Visual Studio / Visual Studio/ Rider Code IDE is recommended 
 
