@@ -17,5 +17,11 @@ jobs:
     - run: dotnet build
     - name: Ensure browsers are installed
       run: pwsh bin/Debug/net6.0/playwright.ps1 install --with-deps
-    - name: Run your tests
-      run: dotnet test
+    - name: Run Cucumber tests
+      run: npm test
+    - uses: actions/upload-artifacts@v3
+      if: always()
+      with:
+        name: Report
+        path: test-results
+        retention-days: 2
