@@ -3,7 +3,7 @@
 A short summary of the feature
 
 @tag1
-Scenario: Verify Garaage Filter Returns Valid Results
+Scenario: Verify Garage Filter Returns Valid Results
 	Given A user is searching properties for sale in Dublin
 	And Has a list of properties displayed
 	When The User clicks on Filters
@@ -19,7 +19,7 @@ Scenario: Verify Garaage Filter Returns Valid Results
 
 	
 @tag1
-Scenario: Verify Garaage Filter Returns Valid Results navigating from homepage
+Scenario: Verify Garage Filter Returns Valid Results navigating from homepage
 	Given A user is on daft homepage
 	And  The user clicks on Buy Option
 	And  The user selects dublin from the dropdown
